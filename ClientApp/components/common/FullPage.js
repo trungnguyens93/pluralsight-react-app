@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import PageTop from "./PageTop";
 import CodeCampMenu from "./CodeCampMenu";
+import Routes from "../Routes";
 
 const FullPage = (props) => {
   return (
@@ -9,6 +10,9 @@ const FullPage = (props) => {
       <PageTop>
         <CodeCampMenu />
       </PageTop>
+
+      <Routes />
+
       <Footer />
     </div>
   );
