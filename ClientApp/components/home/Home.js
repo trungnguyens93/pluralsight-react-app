@@ -3,11 +3,6 @@ import HomeHeader from "./HomeHeader";
 import HomeContainer from "./HomeContainer";
 
 const Home = () => {
-  useEffect(() => {
-    debugger;
-    console.log("Before rendering Home component");
-  });
-
   return (
     <div>
       <HomeHeader />

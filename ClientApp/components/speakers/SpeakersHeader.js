@@ -2,7 +2,7 @@ import React from "react";
 
 const SpeakersHeader = () => {
   return (
-    <div className="jumbo-common  speakers ">
+    <div className="jumbo-common speakers ">
       <div className="container-main">
         <div className="row">
           <div className="col-12">
