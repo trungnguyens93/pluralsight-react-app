@@ -12,7 +12,7 @@ const store = configureStore(window.__STATE__);
 
 const App = () => {
   return (
-    <Provider>
+    <Provider store={store}>
       <Router history={browserHistory}>
         <FullPage />
       </Router>

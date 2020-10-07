@@ -7,12 +7,9 @@ import { speakersFetchData } from "../../../redux/actions/speakers";
 import SpeakersHeader from "./SpeakersHeader";
 import SpeakerList from "./SpeakerList";
 
-const Speakers = () => {
-  const [appData, setAppData] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-
+const Speakers = (props) => {
   useEffect(() => {
-    if (appData.length === 0) {
+    if (props.isLoading === true) {
       // axios
       //   .get("/data/speakers.json")
       //   .then((response) => {
